@@ -1,9 +1,10 @@
 import './App.css';
+import Home from './componens/Home';
 
 function App() {
   return (
     <div className="App">
-      lets build twitter clone
+      <Home/>
     </div>
   );
 }
