@@ -1,5 +1,10 @@
 import React from 'react'
 import { FaHouse } from "react-icons/fa6";
+import { FaSearch } from "react-icons/fa";
+import { IoMdNotifications } from "react-icons/io";
+import { FaUserAlt } from "react-icons/fa";
+import { FaBookmark } from "react-icons/fa";
+import { RiLogoutCircleRFill } from "react-icons/ri";
 
 const LeftsideBar = () => {
   return (
@@ -19,7 +24,7 @@ const LeftsideBar = () => {
         <div className='my-4'>
           <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-100 hover:cursor-pointer rounded-full'>
             <div>
-              <FaHouse size={"25px"}/>
+              <FaSearch size={"25px"}/>
             </div>
               <h1 className='font-semibold text-lg ml-2'>Explore</h1>
           </div>
@@ -27,7 +32,7 @@ const LeftsideBar = () => {
         <div className='my-4'>
           <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-100 hover:cursor-pointer rounded-full'>
             <div>
-              <FaHouse size={"25px"}/>
+              <IoMdNotifications size={"25px"}/>
             </div>
               <h1 className='font-semibold text-lg ml-2'>Notifications</h1>
           </div>
@@ -35,7 +40,7 @@ const LeftsideBar = () => {
         <div className='my-4'>
           <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-100 hover:cursor-pointer rounded-full'>
             <div>
-              <FaHouse size={"25px"}/>
+              <FaUserAlt size={"25px"}/>
             </div>
               <h1 className='font-semibold text-lg ml-2'>Profile</h1>
           </div>
@@ -43,7 +48,7 @@ const LeftsideBar = () => {
         <div className='my-4'>
           <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-100 hover:cursor-pointer rounded-full'>
             <div>
-              <FaHouse size={"25px"}/>
+              <FaBookmark size={"25px"}/>
             </div>
               <h1 className='font-semibold text-lg ml-2'>Bookmarks</h1>
           </div>
@@ -51,10 +56,11 @@ const LeftsideBar = () => {
         <div className='my-4'>
           <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-100 hover:cursor-pointer rounded-full'>
             <div>
-              <FaHouse size={"25px"}/>
+              <RiLogoutCircleRFill size={"25px"}/>
             </div>
               <h1 className='font-semibold text-lg ml-2'>Log Out</h1>
           </div>
+          <button className='px-4 py-2 border-none text-md bg-[#1D9BF0] w-full rounded text-white font-semibold'>Post</button>
         </div>
       </div>
 
